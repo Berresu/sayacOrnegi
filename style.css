@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(180, 70%, 30%);
+}
+
+#kutu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vh;
+    height: 40vh;
+    border-radius: 3%;
+    background-color: hsl(180, 70%, 18%);
+}
+
+input{
+    width: 8vh;
+    height: 5vh;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+#uclu{
+    display: flex;
+}
+
+#arttir{
+    background-color: green;
+    color: #fff;
+}
+
+#sifirla{
+    background-color: #000;
+    color: #fff;
+}
+
+#azalt{
+    background-color: red;
+    color: #fff;
+}
